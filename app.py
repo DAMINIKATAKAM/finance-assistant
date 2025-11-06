@@ -186,7 +186,7 @@ else:
 # ------------------ GEMINI AI ADVICE ------------------
 st.subheader("🤖 Gemini Financial Advice")
 
-api_key = "AIzaSyCBlInGbeaQTkKTPczDH4IF8qIXbC13o3M"  # 🔐 Replace manually
+api_key = "your API key"  # 🔐 Replace manually
 if api_key.strip() != "":
     genai.configure(api_key=api_key)
 
